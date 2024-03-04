@@ -103,7 +103,7 @@
         <PAGE PAGEXPOS="100" PAGEYPOS="1684" PAGEWIDTH="612" PAGEHEIGHT="792" BORDERLEFT="0" BORDERRIGHT="0" BORDERTOP="0" BORDERBOTTOM="0" NUM="2" NAM="" MNAM="Normal" Size="Letter" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100" PAGEYPOS="2516" PAGEWIDTH="612" PAGEHEIGHT="792" BORDERLEFT="0" BORDERRIGHT="0" BORDERTOP="0" BORDERBOTTOM="0" NUM="3" NAM="" MNAM="Article page" Size="Letter" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100" PAGEYPOS="3348" PAGEWIDTH="612" PAGEHEIGHT="792" BORDERLEFT="0" BORDERRIGHT="0" BORDERTOP="0" BORDERBOTTOM="0" NUM="4" NAM="" MNAM="Normal" Size="Letter" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <MASTEROBJECT XPOS="100" YPOS="19" OwnPage="1" ItemID="253845678" PTYPE="4" WIDTH="612" HEIGHT="98.6170212765953" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="OCNS" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L612 0 L612 98.617 L0 98.617 L0 0 Z" copath="M0 0 L612 0 L612 98.617 L0 98.617 L0 0 Z" OnMasterPage="Article page" gXpos="0" gYpos="478234431" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <MASTEROBJECT XPOS="100" YPOS="19" OwnPage="1" ItemID="253845678" PTYPE="4" WIDTH="612" HEIGHT="98.6170212765953" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="OCNS" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L612 0 L612 98.617 L0 98.617 L0 0 Z" copath="M0 0 L612 0 L612 98.617 L0 98.617 L0 0 Z" OnMasterPage="Article page" gXpos="0" gYpos="478344255" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <trail/>
@@ -340,11 +340,11 @@
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT FONT="Liberation Sans Regular" CH="OCNS, Inc is a US non-profit, 501(c)(3) serving organiza­­tion supporting the Compu­­tational Neuroscience com­­munity internationally. "/>
-                <para ALIGN="3"/>
-                <para ALIGN="3"/>
+                <para ALIGN="0"/>
+                <para ALIGN="0"/>
                 <ITEXT FONT="Liberation Sans Regular" CH="We seek sponsorship from corporate and philanthropic organizations for support of student travel and regis­­tration to the annual meeting, student awards, and hosting of topical workshops. For more infor­­mation about how you can contribute, please email "/>
                 <ITEXT FONT="Liberation Sans Regular" FCOLOR="OCNSlink" CH="sponsorship@cnsorg.org"/>
-                <trail ALIGN="3"/>
+                <trail ALIGN="0"/>
             </StoryText>
         </PAGEOBJECT>
         <PAGEOBJECT XPOS="271" YPOS="866.28125" OwnPage="1" ItemID="255684974" PTYPE="4" WIDTH="429" HEIGHT="19.03789893617" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L429 0 L429 19.0379 L0 19.0379 L0 0 Z" copath="M0 0 L429 0 L429 19.0379 L0 19.0379 L0 0 Z" gXpos="-9" gYpos="-20" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
@@ -595,13 +595,6 @@
         <PAGEOBJECT XPOS="458.297244094488" YPOS="1406.46808510638" OwnPage="1" ItemID="271947406" PTYPE="4" WIDTH="169.46871335232" HEIGHT="11.2340425531913" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNOTATION="1" ANTYPE="11" ANACTION="" ANEACT="" ANXACT="" ANDACT="" ANFOACT="" ANBLACT="" ANKACT="" ANFACT="" ANVACT="" ANCACT="" ANEXTERN="https://ocns.memberclicks.net/cns-2024" ANZIEL="0" ANACTYP="8" ANTOOLTIP="" ANBWID="1" ANBSTY="0" ANFEED="1" ANFLAG="0" ANFONT="4" ANFORMAT="0" ANROLL="" ANDOWN="" ANVIS="0" ANMC="-1" ANCHK="0" ANAA="0" ANCHKS="0" ANBCOL="Arial Regular" ANHTML="0" ANICON="0" ANPLACE="1" ANSCALE="0" ANITYP="0" ANOPEN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L169.469 0 L169.469 11.234 L0 11.234 L0 0 Z" copath="M0 0 L169.469 0 L169.469 11.234 L0 11.234 L0 0 Z" gXpos="458.297244094488" gYpos="1406.46808510638" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
-                <trail/>
-            </StoryText>
-        </PAGEOBJECT>
-        <PAGEOBJECT XPOS="108.5" YPOS="1301.48936170213" OwnPage="1" ItemID="276707022" PTYPE="4" WIDTH="140" HEIGHT="13.8551264868463" FRTYPE="0" CLIPEDIT="1" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L140 0 L140 13.8551 L0 13.8551 L0 0 Z" copath="M0 0 L140 0 L140 13.8551 L0 13.8551 L0 0 Z" gXpos="0" gYpos="-118.286612297872" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
-            <StoryText>
-                <DefaultStyle/>
-                <ITEXT CH="Sponsors:"/>
                 <trail/>
             </StoryText>
         </PAGEOBJECT>
