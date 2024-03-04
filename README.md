@@ -2,12 +2,12 @@
 
 ## 2024 Spring issue
 
-[x] - Advertisement for upcoming meeting
-[x] - Announcements: 
-  [x] - reduced registration fees
-  [x] - abstract deadline
-[x] - Sponsorship call (Max?)
-[x] - Introduce new directors in the board
+- [x] Advertisement for upcoming meeting
+- [x] Announcements: 
+  - [x] reduced registration fees
+  - [x] abstract deadline
+- [x] Sponsorship call (Max?)
+- [x] Introduce new directors in the board
 
 New board members:
 
