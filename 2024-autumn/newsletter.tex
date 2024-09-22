@@ -1,5 +1,5 @@
 \documentclass[11pt,a4paper,oneside]{article}
-\usepackage[a4paper,margin=1in]{geometry}
+\usepackage[a4paper,margin=0.5in]{geometry}
 \usepackage[separate-uncertainty=true,range-phrase=--]{siunitx}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -10,30 +10,31 @@
 \usepackage{amssymb}
 \usepackage{graphicx}
 \usepackage{enumitem}
+\usepackage{tabularx} 
 \usepackage[sfdefault]{roboto}
 \usepackage[bibstyle=alphabetic,citestyle=alphabetic,natbib=false,backend=biber,sorting=nyt,hyperref=true,backref=true]{biblatex}
-\usepackage[pdftex,hyperfootnotes=false,pdfpagelabels]{hyperref}
 \usepackage{csquotes}
-\usepackage[capitalise,noabbrev]{cleveref}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
 \usepackage{lipsum}
 \usepackage{flafter}
-\usepackage[x11names]{xcolor} 
+\usepackage[x11names]{xcolor}
+\usepackage{tcolorbox}
+\usepackage[pdftex,hyperfootnotes=false,pdfpagelabels]{hyperref}
+\usepackage[capitalise,noabbrev]{cleveref}
 
 \titleformat{name=\section}{\huge\bfseries\sffamily}{\rlap{\color{Aquamarine1!92!Chartreuse1}\rule[-0.4cm]{\linewidth}{1.2cm}} \thesection}{.5em}{}
 \renewcommand{\headrulewidth}{0pt}
 
-\title{OCNS Newsletter: Autumn 2024}
-\author{OCNS members}
-\date{\today}
-\addbibresource{bibliography.bib}
+% https://tex.stackexchange.com/a/17101/11281
+% for logos in the same line as text in title page
+\newcommand{\vcenteredinclude}[1]{\begingroup
+  \setbox0=\hbox{\includegraphics[keepaspectratio,height=4ex]{#1}}%
+\parbox{\wd0}{\box0}\endgroup}
 
+\addbibresource{bibliography.bib}
 \begin{document}
-\pagestyle{fancy}
-\fancyhead{}
-\fancyfoot{}
-\maketitle
+\input{titlepage}
 \newpage
 
 \pagestyle{fancy}
