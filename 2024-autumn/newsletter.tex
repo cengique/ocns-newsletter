@@ -12,7 +12,7 @@
 \usepackage{enumitem}
 \usepackage{tabularx} 
 \usepackage[sfdefault]{roboto}
-\usepackage[bibstyle=alphabetic,citestyle=alphabetic,natbib=false,backend=biber,sorting=nyt,hyperref=true,backref=true]{biblatex}
+\usepackage[bibstyle=alphabetic,citestyle=alphabetic,natbib=false,backend=biber,sorting=ynt,sortcites=true,autocite=plain,hyperref=true,backref=true,maxbibnames=15,minbibnames=10,maxnames=15,minnames=10]{biblatex}
 \usepackage{csquotes}
 \usepackage{fancyhdr}
 \usepackage{titlesec}
@@ -135,13 +135,12 @@ Ankur Sinha\\}
 \lipsum[1-3]
 
 \newpage
-\section*{OCNS: Member Updates}%
-\rule{\textwidth}{0.4pt}
-\lipsum[1-3]
-
-
+\input{member-updates.tex}
+\newpage
+\input{member-updates-community.tex}
 \newpage
 \section*{Messages from our Sponsors}%
+\textbf{\large Short messages from OCNS sponsors\\}
 \rule{\textwidth}{0.4pt}
 \subsection*{Metacell}%
 \begin{displayquote}
