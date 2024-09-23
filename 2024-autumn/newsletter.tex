@@ -1,39 +1,10 @@
 \documentclass[11pt,a4paper,oneside]{article}
-\usepackage[a4paper,margin=0.5in]{geometry}
-\usepackage[separate-uncertainty=true,range-phrase=--]{siunitx}
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-\usepackage{mathtools}
-\usepackage{amsfonts}
-\usepackage{amsthm}
-\usepackage{thmtools}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{enumitem}
-\usepackage{tabularx} 
-\usepackage[sfdefault]{roboto}
-\usepackage[bibstyle=numeric,citestyle=alphabetic,natbib=false,backend=biber,sorting=ynt,sortcites=true,autocite=plain,hyperref=true,backref=true,maxbibnames=15,minbibnames=10,maxnames=15,minnames=10]{biblatex}
-\usepackage{csquotes}
-\usepackage{fancyhdr}
-\usepackage{titlesec}
-\usepackage{lipsum}
-\usepackage{flafter}
-\usepackage[x11names]{xcolor}
-\usepackage{tcolorbox}
-\usepackage[pdftex,hyperfootnotes=false,pdfpagelabels]{hyperref}
-\usepackage[capitalise,noabbrev]{cleveref}
+% input the config file
+\input{config}
 
-\titleformat{name=\section}{\huge\bfseries\sffamily}{\rlap{\color{Aquamarine1!92!Chartreuse1}\rule[-0.4cm]{\linewidth}{1.2cm}} \thesection}{.5em}{}
-\renewcommand{\headrulewidth}{0pt}
-
-% https://tex.stackexchange.com/a/17101/11281
-% for logos in the same line as text in title page
-\newcommand{\vcenteredinclude}[1]{\begingroup
-  \setbox0=\hbox{\includegraphics[keepaspectratio,height=4ex]{#1}}%
-\parbox{\wd0}{\box0}\endgroup}
-
-\addbibresource{bibliography.bib}
+% document begins
 \begin{document}
+
 \input{titlepage}
 \newpage
 
