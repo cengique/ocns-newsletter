@@ -17,12 +17,12 @@
 \usepackage{titlesec}
 \usepackage{lipsum}
 \usepackage{flafter}
-\usepackage[x11names]{xcolor}
+\usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{tcolorbox}
 \usepackage[pdftex,hyperfootnotes=false,pdfpagelabels]{hyperref}
 \usepackage[capitalise,noabbrev]{cleveref}
 
-\titleformat{name=\section}{\huge\bfseries\sffamily}{\rlap{\color{Aquamarine1!92!Chartreuse1}\rule[-0.4cm]{\linewidth}{1.2cm}} \thesection}{.5em}{}
+\titleformat{name=\section}{\huge\bfseries\sffamily\color{BlueViolet}}{\thesection}{.5em}{}
 \renewcommand{\headrulewidth}{0pt}
 
 % https://tex.stackexchange.com/a/17101/11281
@@ -30,5 +30,9 @@
 \newcommand{\vcenteredinclude}[1]{\begingroup
   \setbox0=\hbox{\includegraphics[keepaspectratio,height=4ex]{#1}}%
 \parbox{\wd0}{\box0}\endgroup}
+
+% For section authors
+\newcommand{\sectionauthor}[1]{\begingroup
+{\color{Blue}\textbf{\large #1\\}}\rule{\textwidth}{0.4pt}\endgroup}
 
 \addbibresource{bibliography.bib}
