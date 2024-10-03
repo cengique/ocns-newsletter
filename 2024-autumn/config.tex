@@ -5,6 +5,7 @@
 \usepackage{mathtools}
 \usepackage{amsfonts}
 \usepackage{amsthm}
+\usepackage{booktabs}
 \usepackage{thmtools}
 \usepackage{amssymb}
 \usepackage{graphicx}
@@ -20,10 +21,23 @@
 \usepackage{flafter}
 \usepackage{wrapfig}
 \usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{pagecolor}
 \usepackage{tcolorbox}
 \usepackage[pdftex,hyperfootnotes=false,pdfpagelabels]{hyperref}
 \usepackage[capitalise,noabbrev]{cleveref}
+% no indentation for paragraphs, instead add more vertical spacing
+\usepackage[skip=1ex,indent=0em]{parskip}
 
+% make links/urls in bold
+% https://tex.stackexchange.com/questions/47468/how-to-make-url-bold
+\def\UrlFont{\bfseries}
+% https://tex.stackexchange.com/questions/351650/make-all-href-text-bold
+\LetLtxMacro\oldhref\href
+\RenewDocumentCommand{\href}{o m m}{%
+  \IfValueTF{#1}
+    {\oldhref[#1]{#2}{\bfseries #3}}
+    {\oldhref{#2}{\bfseries #3}}%
+}
 \addbibresource{bibliography.bib}
 
 \titleformat{name=\section}{\huge\bfseries\sffamily\color{BlueViolet}}{\thesection}{.5em}{}
@@ -51,3 +65,7 @@
   \ifitemannotation{highlight}
     {\textbf{#1}}
     {#1}}
+
+
+%\definecolor{ocnspagecolor}{RGB}{255, 241, 213}
+\definecolor{ocnspagecolor}{RGB}{255, 250, 241}
