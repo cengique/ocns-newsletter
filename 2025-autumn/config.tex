@@ -1,0 +1,76 @@
+\usepackage[a4paper,margin=0.5in]{geometry}
+\usepackage[separate-uncertainty=true,range-phrase=--]{siunitx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{amsthm}
+\usepackage{booktabs}
+\usepackage{thmtools}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{tabularx} 
+\usepackage[sfdefault]{roboto}
+\usepackage[bibstyle=numeric,citestyle=alphabetic,natbib=false,backend=biber,sorting=ynt,sortcites=true,autocite=plain,hyperref=true,backref=true,maxbibnames=15,minbibnames=10,maxnames=15,minnames=10]{biblatex}
+\usepackage{csquotes}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{multicol}
+\usepackage{flafter}
+\usepackage{wrapfig}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{pagecolor}
+\usepackage{tcolorbox}
+\usepackage[pdftex,hyperfootnotes=false,pdfpagelabels,urlbordercolor=BlueGreen]{hyperref}
+\usepackage[capitalise,noabbrev]{cleveref}
+% no indentation for paragraphs, instead add more vertical spacing
+\usepackage[skip=1ex,indent=0em]{parskip}
+\usepackage{letltxmacro,xparse} 
+
+% make links/urls in bold
+% https://tex.stackexchange.com/questions/47468/how-to-make-url-bold
+\def\UrlFont{\bfseries}
+% https://tex.stackexchange.com/questions/351650/make-all-href-text-bold
+\LetLtxMacro\oldhref\href
+\RenewDocumentCommand{\href}{o m m}{%
+  \IfValueTF{#1}
+    {\oldhref[#1]{#2}{\bfseries #3}}
+    {\oldhref{#2}{\bfseries #3}}%
+}
+\addbibresource{bibliography.bib}
+
+\titleformat{name=\section}{\huge\bfseries\sffamily\color{BlueViolet}}{\thesection}{.5em}{}
+\renewcommand{\headrulewidth}{0pt}
+
+% https://tex.stackexchange.com/a/17101/11281
+% for logos in the same line as text in title page
+\newcommand{\vcenteredinclude}[1]{\begingroup
+  \setbox0=\hbox{\includegraphics[keepaspectratio,height=4ex]{#1}}%
+\parbox{\wd0}{\box0}\endgroup}
+
+% For section authors
+\newcommand{\sectionauthor}[1]{\begingroup
+{\color{Blue}\textbf{\large #1\\}}\rule{\textwidth}{0.4pt}\endgroup}
+
+\newcommand{\sectionauthorline}[2]{\begingroup
+{\color{Blue}\textbf{\large #1\\}}\centerline{\rule{#2}{0.4pt}}\endgroup}
+
+% Make submitter names bold in references
+% The bibliography entry must include another field for this
+% https://tex.stackexchange.com/a/304968/11281
+\renewcommand*{\mkbibnamegiven}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+\renewcommand*{\mkbibnamefamily}[1]{%
+  \ifitemannotation{highlight}
+    {\textbf{#1}}
+    {#1}}
+
+
+%\definecolor{ocnspagecolor}{RGB}{255, 241, 213}
+\definecolor{ocnspagecolor}{RGB}{255, 250, 241}
+\definecolor{lighterOrange}{RGB}{255, 175, 95}
